@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(252, 241, 227);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
